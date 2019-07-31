@@ -20,9 +20,8 @@ updateScores();
 //when a key is let go of 
 document.onkeyup = function(event){
     const key = event.key.toLocaleLowerCase();
-    console.log(currentCompLetter)
     errorMsg = "";
-    if(!user.guesses.includes(key)){
+    if(!user.guesses.includes(key) && letters.includes(key)){
         if (key === currentCompLetter){
             winningLetter();
         } else {
@@ -30,7 +29,11 @@ document.onkeyup = function(event){
             triesTools();
         }
     } else {
-        errorMsg = `<a class="error-message">ERROR: you have already guessed ${key}</a>`;
+        if (!letters.includes(key)) {
+            errorMsg = `<a class="error-message">ERROR: you have guessed an incorrect key: ${key}</a>`;
+        } else {
+            errorMsg = `<a class="error-message">ERROR: you have already guessed ${key}</a>`;
+        }
     }
     updateScores();
 }
