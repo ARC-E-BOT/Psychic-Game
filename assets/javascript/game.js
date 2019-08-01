@@ -21,7 +21,6 @@ updateScores();
 document.onkeyup = function(event){
     let key = event.key.toLocaleLowerCase();
     errorMsg = "";
-    console.log(currentCompLetter);
     if(!user.guesses.includes(key) && letters.includes(key)){
         if (key === currentCompLetter){
             winningLetter();
