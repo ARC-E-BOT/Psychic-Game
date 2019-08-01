@@ -7,11 +7,9 @@ body{
 }
 
 #title-text{
-    /* border: 2px solid green;
-    border-radius: 5px; */
     padding-top: 10px;
     height: 50px;
-    background: #007d75;/*this really is a nice color */
+    background: #007d75;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -41,8 +39,17 @@ body{
 .error-message{
     background: red;
     color: white;
-    padding: 10px
+    padding: 10px;
+    border-radius: 5px;
 }
+
+.winning-message {
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
  h1, h2, h3{
      margin: 0;
  }
