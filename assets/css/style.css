@@ -3,25 +3,39 @@ body{
     margin: 0;
     background: #ec6778;
     color: #fcd2a8;
+    overflow: hidden;
 }
 
 #title-text{
     /* border: 2px solid green;
     border-radius: 5px; */
-    padding: 15px;
+    padding-top: 10px;
+    height: 50px;
     background: #007d75;/*this really is a nice color */
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
 
 }
 
 #sub-title-text{
     width: 100%;
-    margin: 0 auto;
+    height: 25px;
+    margin: 0;
     background: #529a86;
     text-align: center;
-    padding: 5px;
+}
+
+#score-box{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+#score-box h3{
+    padding: 5px
 }
 
 .error-message{
