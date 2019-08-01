@@ -1,15 +1,15 @@
 body{
     width: 100%;
     margin: 0;
-    background: #ec6778;
-    color: #fcd2a8;
+    background: #4d648d;
+    color: #d0e1f9;
     overflow: hidden;
 }
 
 #title-text{
     padding-top: 10px;
     height: 50px;
-    background: #007d75;
+    background: #1e1f26;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -20,7 +20,7 @@ body{
     width: 100%;
     height: 46px;
     margin: 0;
-    background: #529a86;
+    background: #283655;
     text-align: center;
 }
 
