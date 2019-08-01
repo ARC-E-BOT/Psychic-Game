@@ -1,5 +1,34 @@
+body{
+    width: 100%;
+    margin: 0;
+    background: #ec6778;
+    color: #fcd2a8;
+}
+
+#title-text{
+    /* border: 2px solid green;
+    border-radius: 5px; */
+    padding: 15px;
+    background: #007d75;/*this really is a nice color */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#sub-title-text{
+    width: 100%;
+    margin: 0 auto;
+    background: #529a86;
+    text-align: center;
+    padding: 5px;
+}
+
 .error-message{
     background: red;
     color: white;
     padding: 10px
 }
+ h1, h2, h3{
+     margin: 0;
+ }
