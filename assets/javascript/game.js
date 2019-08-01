@@ -31,9 +31,9 @@ document.onkeyup = function(event){
     } else {
         if (!letters.includes(key)) {
             if (key === " ") key = "space";
-            errorMsg = `<a class="error-message">ERROR: you have guessed an incorrect key: ${key}</a>`;
+            errorMsg = `<a class="error-message">ERROR: You have guessed an incorrect key: ${key}</a>`;
         } else {
-            errorMsg = `<a class="error-message">ERROR: you have already guessed: ${key}</a>`;
+            errorMsg = `<a class="error-message">ERROR: You have already guessed: ${key}</a>`;
         }
     }
     updateScores();
